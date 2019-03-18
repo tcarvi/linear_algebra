@@ -9,7 +9,7 @@ class Reta
         unsigned long long int getA();
         unsigned long long int getB();
         unsigned long long int getC();
-        // // [interger_number]ULL
+    private:
         unsigned long long int A;
         unsigned long long int B;
         unsigned long long int C;

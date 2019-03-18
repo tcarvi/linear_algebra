@@ -14,7 +14,7 @@ class LinearEquation
         unsigned long long int getC3();
         unsigned long long int getC4();
         unsigned long long int getC5();
-        // // [interger_number]ULL
+    private:
         unsigned long long int C1;
         unsigned long long int C2;
         unsigned long long int C3;

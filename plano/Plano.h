@@ -10,7 +10,7 @@ class Plano
         unsigned long long int getB();
         unsigned long long int getC();
         unsigned long long int getD();
-        // // [interger_number]ULL
+    private:
         unsigned long long int A;
         unsigned long long int B;
         unsigned long long int C;

@@ -15,7 +15,7 @@ int main()
     cout << "r.getA() = " << r.getA() << "\n";
     cout << "r.getB() = " << r.getB() << "\n";
     cout << "r.getC() = " << r.getC() << "\n";
-    cout << "teste Reta [1 2 4 8]\n";
+    cout << "teste Plano [1 2 4 8]\n";
     linear_algebra::Plano p = linear_algebra::Plano(1ULL, 2ULL, 4ULL, 8ULL);
     cout << "p.getA() = " << p.getA() << "\n";
     cout << "p.getB() = " << p.getB() << "\n";
