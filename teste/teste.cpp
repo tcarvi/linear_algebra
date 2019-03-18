@@ -1,7 +1,7 @@
 #include <iostream>
-#include "reta/Reta.cpp"
-#include "plano/Plano.cpp"
-#include "linear_equation/LinearEquation.cpp"
+#include "../reta/Reta.cpp"
+#include "../plano/Plano.cpp"
+#include "../linear_equation/LinearEquation.cpp"
 
 using namespace std; // make names from std visible without std::
 
