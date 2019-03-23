@@ -1,7 +1,7 @@
 #include <iostream>
+#include "line/Line.cpp"
 #include "linear_equation/LinearEquation.cpp"
-#include "plano/Plano.cpp"
-#include "reta/Reta.cpp"
+#include "plane/Plane.cpp"
 
 using namespace std; // make names from std visible without std::
 
@@ -10,13 +10,13 @@ using namespace std; // make names from std visible without std::
  */
 int main()
 {
-    cout << "teste Reta [1 2 4]\n";
-    linear_algebra::Reta r = linear_algebra::Reta(1ULL, 2ULL, 4ULL);
+    cout << "teste Line [1 2 4]\n";
+    linear_algebra::Line r = linear_algebra::Line(1ULL, 2ULL, 4ULL);
     cout << "r.getA() = " << r.getA() << "\n";
     cout << "r.getB() = " << r.getB() << "\n";
     cout << "r.getC() = " << r.getC() << "\n";
-    cout << "teste Plano [1 2 4 8]\n";
-    linear_algebra::Plano p = linear_algebra::Plano(1ULL, 2ULL, 4ULL, 8ULL);
+    cout << "teste Plane [1 2 4 8]\n";
+    linear_algebra::Plane p = linear_algebra::Plane(1ULL, 2ULL, 4ULL, 8ULL);
     cout << "p.getA() = " << p.getA() << "\n";
     cout << "p.getB() = " << p.getB() << "\n";
     cout << "p.getC() = " << p.getC() << "\n";
