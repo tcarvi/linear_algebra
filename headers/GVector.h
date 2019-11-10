@@ -1,7 +1,7 @@
 #include <iostream>
 
 namespace linear_algebra {
-class Line
+class Vector
 {
     public:
         Line(unsigned long long int, unsigned long long int, unsigned long long int);
@@ -16,5 +16,5 @@ class Line
         void setA(unsigned long long int parA);
         void setB(unsigned long long int parB);
         void setC(unsigned long long int parC);
-}; // class Line
+}; // class Vector
 }  // namespace algebra
