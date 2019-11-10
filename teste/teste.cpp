@@ -1,7 +1,7 @@
 #include <iostream>
-#include "line/GLine.cpp"
+#include "geometry/GLine.cpp"
 #include "linear_equation/LinearEquation.cpp"
-#include "plane/GPlane.cpp"
+#include "geometry/GPlane.cpp"
 
 using namespace std; // make names from std visible without std::
 
