@@ -1,0 +1,62 @@
+# Mathematical Definitions
+- Definition: **Mathematical Equation**
+    - An equation is a **statement that asserts the equality of two mathematical expressions**. It consists of two sides, the left-hand side and the right-hand side, separated by an equal sign (=). The left-hand side and the right-hand side are each **mathematical expressions** that may contain **variables**, **constants**, **functions**, and **mathematical operations**.
+- Terms used to describe a mathematical equation:
+    - **Variables**: Symbols that represent unknown or unspecified values, often denoted by letters such as x, y, z, etc.
+    - **Constants**: Fixed values that do not change in a given context, often denoted by letters such as a, b, c, etc.
+    - **Functions**: Mathematical objects that map one set of values to another set of values, often denoted by letters such as f, g, h, etc.
+    - **Operations**: Mathematical actions that combine or transform values or expressions, such as addition (+), subtraction (-), multiplication (*), division (/), exponentiation (^), etc.
+    - **Terms**: Parts of an equation separated by addition or subtraction, often consisting of a coefficient and a variable or constant, such as 2x, 3y, 4a, etc.
+    - **Factors**: Parts of an equation separated by multiplication or division, often consisting of a coefficient and a variable or constant, such as 2x, 3y, 4a, etc.
+    - **Degree**: The highest power of a variable in a given term or polynomial, such as the degree of the polynomial 2x^2 + 3x + 4 is 2.
+    - **Roots**: Values of the variable that satisfy an equation, often denoted by symbols such as √, or by specific numerical values.
+    - **Solutions**: Sets of values of the variable that satisfy an equation, often represented as a set of ordered pairs or a set of vectors.
+- Definition: **Linear Equation**
+    - A linear equation is a mathematical equation of the form: `a1 * x1 + a2 * x2 + ... + an * xn = b`, where x1, x2, ..., xn are variables, a1, a2, ..., an are coefficients, and b is a constant. The variables represent the unknown quantities, while the coefficients and the constant are known values.
+    - The equation is said to be linear because each variable appears in a linear (first-degree) term of a n-tuple, which means that it is raised to the power of 1 and appears as a point or as a line, or it does not appear. Moreover, the coefficients and the constant are all constants, which means that they do not depend on the values of the variables.
+    - In general, a linear equation represents a straight line in n-dimensional space, where n is the number of variables. The solution to a linear equation is the set of values of the variables that make the equation true. In the case of one variable, the solution is a single value; in the case of two variables, the solution is a line; and in the case of three variables, the solution is a plane. For more than three variables, the solution is a hyperplane.
+    - Linear equations play a fundamental role in mathematics and are used in a variety of fields, including physics, engineering, economics, and statistics, among others. They form the basis of linear algebra, which is the study of vector spaces, matrices, and linear transformations.
+- Definition: Vector Space
+    - A vector space is a collection of objects, called vectors, that can:
+        - be added together being subject to a set of axioms
+        - be multiplied by scalars being subject to a set of axioms
+    - More formally, a vector space V over a field F consists of the following:
+        - A set of objects, called vectors, denoted by V.
+        - with two operations:
+            - 1. vector addition (+) and
+            - 2. scalar multiplication (*), 
+            - that satisfy the following axioms for all u, v, and w in V, and for all scalars a and b in a field F:
+                - a. Vector addition is commutative
+                    - u + v = v + u | u E V && v E V
+                - b. Vector addition is associative:
+                    - (u + v) + w = u + (v + w) | u E V && v E V&& w E V
+                - c. There exists a zero vector 0 in V, such that u + 0 = u for all u in V.
+                - d. For each u in V, there exists a vector -u in V, such that u + (-u) = 0.
+                - e. Scalar multiplication is comutative:
+                    - a(u) = (u)a | a E F && u E V
+                - f. Scalar multiplication is associative:
+                    - a(uv) = (au)v | a E F && u E V && v E V 
+                - g. Scalar multiplication is distributive over vector addition: a(u + v) = au + av | a E F && u E V && v E V.
+                - h. Scalar multiplication is distributive over field addition:
+                    - u(a + b) = ua + ub = au + bu | a E F && b E F && u E V 
+                    - (a + b)u = au + bu | a E F && b E F && u E V 
+                - i. Scalar multiplication by the field identity element I does not change the vector: I u = u. If I E Set of Real Numbers, I = 1.
+- Definition: n-dimensional Euclidean space
+    - An n-dimensional Euclidean space is a vector space over the field of real numbers, denoted as R^n, consisting of all n-tuples of real numbers, equipped with the standard inner product and the standard norm. More formally, the n-dimensional Euclidean space is defined as follows:
+    - The set of n-tuples of real numbers, denoted by R^n, is a vector space over the field of real numbers. The elements of this vector space are called vectors, and they can be represented as n-tuples (x1, x2, ..., xn) of real numbers.
+    - The standard inner product on R^n is defined as the dot product of two vectors u = (u1, u2, ..., un) and v = (v1, v2, ..., vn): u.v = u1v1 + u2v2 + ... + un*vn
+    - The standard norm on R^n is defined as the square root of the sum of the squares of the components of a vector u:
+        - ||u|| = sqrt(u.u) = sqrt(u1^2 + u2^2 + ... + un^2) = sqrt(u1*u1 + u2*u2 + ... + un*un)
+    - The n-dimensional Euclidean space R^n is equipped with a standard Cartesian coordinate system, consisting of n orthogonal unit vectors e1, e2, ..., en, which form a basis for R^n. Any vector u in R^n can be expressed as a linear combination of these basis vectors:
+        - u = u1e1 + u2e2 + ... + un*en
+- Definition: standard basis vector of a Vector Space
+    - The standard basis of an n-dimensional vector space V is the set of n vectors {e1, e2, ..., en}, where each vector ei is a column vector with n components, and the ith component of ei is 1, while all other components are 0.
+    - In other words, the standard basis vectors of V are the vectors:
+        - e1 = (1, 0, 0, ..., 0)
+        - e2 = (0, 1, 0, ..., 0)
+        - ...
+        - en = (0, 0, 0, ..., 1)
+    - The standard basis vectors satisfy the following properties:
+        - They are linearly independent, which means that no vector in the set can be expressed as a linear combination of the others.
+        - They span the vector space V, which means that any vector in V can be expressed as a linear combination of the basis vectors.
+        - They are orthogonal (perpendicular) to each other, which means that their dot products are zero, i.e., ei . ej = 0 if i ≠ j. 
